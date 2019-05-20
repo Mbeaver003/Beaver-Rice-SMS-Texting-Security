@@ -1,4 +1,4 @@
-//the time we give the sensor to calibrate (10-60 secs according to the datasheet)
+//the time we give the sensor to calibrate 
 int calibrationTime = 30;       
  
 //the time when the sensor outputs a low impulse
@@ -15,7 +15,6 @@ int pirPin = 3;    //the digital pin connected to the PIR sensor's output
 int ledPin = 13;
  
  
-/////////////////////////////
 //SETUP
 void setup(){
   Serial.begin(9600);
@@ -33,8 +32,7 @@ void setup(){
     Serial.println("SENSOR ACTIVE");
     delay(50);
   }
- 
-////////////////////////////
+
 //LOOP
 void loop(){
  
