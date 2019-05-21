@@ -1,4 +1,4 @@
-//the time we give the sensor to calibrate 
+//the time we give the sensor to calibrate.
 int calibrationTime = 30;       
  
 //the time when the sensor outputs a low impulse
