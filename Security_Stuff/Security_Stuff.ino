@@ -1,4 +1,4 @@
-//the time we give the sensor to calibrate.
+//the time we give the sensor to figure things out
 int calibrationTime = 30;       
  
 //the time when the sensor outputs a low impulse
@@ -55,7 +55,7 @@ void loop(){
  
        if(takeLowTime){
         lowIn = millis();          //save the time of the transition from high to LOW
-        takeLowTime = false;       //make sure this is only done at the start of a LOW phase
+        takeLowTime = false;       //make sure this is only done at the start of LOW phase
         }
        //if the sensor is low for more than the given pause,
        //we assume that no more motion is going to happen
